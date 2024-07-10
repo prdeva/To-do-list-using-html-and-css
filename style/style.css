@@ -1,0 +1,26 @@
+input:active{
+    
+}
+body{
+    font-size: 1.5rem;
+    margin: 0px;
+    background-color: rgb(160, 132, 215);
+    color: white;
+}
+fieldset{
+    margin-left: 35%;
+    width: 400px;
+    margin-top: 10%;
+     
+    background-color: rgb(34, 58, 58);
+}
+legend{
+    background-color: darkslategray;
+}
+div{
+    padding :1rem ;
+}
+input:checked+label{
+    text-decoration:line-through;
+    color: black;
+}
